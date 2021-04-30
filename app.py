@@ -15,8 +15,8 @@ def sms_reply():
 
     # Create reply
     resp = MessagingResponse()
-    resp.message("Hola escribiste: {}".format(msg))
-    resp.message("mensaje 2")
+    resp.message("Hola, escribiste esto: {}".format(msg))
+    resp.message("Esta es una prueba con Heroku")
 
     return str(resp)
 
